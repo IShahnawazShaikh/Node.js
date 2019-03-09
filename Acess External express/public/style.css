@@ -1,0 +1,15 @@
+h1{
+	color: red;
+}
+.box {
+  max-width: 700px;
+  height: 200px;
+}
+.box p{
+
+}
+.box img{
+	 width: 49%;
+    float: left;
+    border: 1px solid white;
+}
