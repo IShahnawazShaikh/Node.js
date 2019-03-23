@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{setTitle}}</title>
+</head>
+<body>
+  
+   <h1>{{value}}</h1>
+   <h3>Java 8 introduced:</h3>
+   {{#each concepts}}
+    
+     <p>{{this}} index={{@index}}</p>
+   
+   {{/each}}
+
+
+    <h3>Students Records:</h3>
+
+    <h4>Name  Java  C</h4>
+    {{#each students}}
+     <label><br></label>
+     <span style="color: red">{{this.name}}</span>
+
+     <span style="color: red">{{this.java}}</span>
+
+     <span style="color: red">{{this.C}}</span>
+    {{/each}}
+
+  
+
+
+    
+</body>
+</html>
